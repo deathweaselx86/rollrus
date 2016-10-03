@@ -6,8 +6,8 @@ import (
 	"time"
 
 	log "github.com/Sirupsen/logrus"
+	"github.com/deathweaselx86/roll"
 	"github.com/pkg/errors"
-	"github.com/stvp/roll"
 )
 
 var defaultTriggerLevels = []log.Level{
